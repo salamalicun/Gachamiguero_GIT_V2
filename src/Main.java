@@ -24,6 +24,7 @@ public class Main {
         }
         System.out.println("--------------------");
     }
+
     public static String termomixLidl(int numero) {
         return (numero % 3 == 0) ? ((numero % 5 == 0) ? "GachaMiga" : "Gacha")
                 : ((numero % 5 == 0) ? "Miga" : String.valueOf(numero));

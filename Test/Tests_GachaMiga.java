@@ -6,7 +6,6 @@ public class Tests_GachaMiga {
     public void Test_falso() {
         Assert.assertEquals("1", Main.termomixLidl(1));
     }
-
     @Test
     public void Test_miga() {
         Assert.assertEquals("Gacha", Main.termomixLidl(3));
