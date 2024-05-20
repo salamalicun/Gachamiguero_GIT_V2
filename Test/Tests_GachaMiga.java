@@ -66,5 +66,4 @@ public class Tests_GachaMiga {
     public void Test16() {
         Assert.assertEquals("GachaMiga", Main.termomixLidl(30));
     }
-
 }

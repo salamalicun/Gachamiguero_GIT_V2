@@ -5,7 +5,6 @@ public class Main {
             System.out.println(termomixLidl(numero));
         }
     }
-
     public static String termomixLidl(int numero) {
         String resultado = Integer.toString(numero);
         if (numero%3 == 0) resultado = "Gacha";
