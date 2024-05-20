@@ -10,6 +10,7 @@ public class Main {
         String resultado = Integer.toString(numero);
         if (numero%3 == 0) resultado = "Gacha";
         if (numero%5 == 0) resultado = "Miga";
+        if (numero%15 == 0) resultado = "GachaMiga";
         return resultado;
     }
 }
