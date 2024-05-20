@@ -42,4 +42,8 @@ public class Tests_GachaMiga {
     public void Test10() {
         Assert.assertEquals("Miga", Main.termomixLidl(10));
     }
+    @Test
+    public void Test11() {
+        Assert.assertEquals("11", Main.termomixLidl(11));
+    }
 }
