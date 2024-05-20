@@ -10,7 +10,6 @@ public class Tests_GachaMiga {
     public void Test_miga() {
         Assert.assertEquals("Gacha", Gachamiguero.cocinar(3));
     }
-
     @Test
     public void Test_gacha() {
         Assert.assertEquals("Miga", Gachamiguero.cocinar(5));
