@@ -9,6 +9,7 @@ public class Main {
     public static String termomixLidl(int numero) {
         String resultado = Integer.toString(numero);
         if (numero%3 == 0) resultado = "Gacha";
+        if (numero%5 == 0) resultado = "Miga";
         return resultado;
     }
 }
