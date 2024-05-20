@@ -1,4 +1,4 @@
-public class Main {
+public class Gachamiguero {
     private static final int CANTIDAD_NUMEROS = 100;
     private static int numero = 0;
     public static void main(String[] args) throws InterruptedException {
