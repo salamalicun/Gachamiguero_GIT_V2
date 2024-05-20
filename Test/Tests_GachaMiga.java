@@ -30,4 +30,10 @@ public class Tests_GachaMiga {
     public void Test07() {
         Assert.assertEquals("7", Main.termomixLidl(7));
     }
+    @Test
+    public void Test08() {
+        Assert.assertEquals("8", Main.termomixLidl(8));
+    }
+
+
 }
