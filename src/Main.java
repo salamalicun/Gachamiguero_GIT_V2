@@ -7,7 +7,6 @@ public class Main {
     }
 
     public static String termomixLidl(int numero) {
-
         return Integer.toString(numero);
     }
 }
