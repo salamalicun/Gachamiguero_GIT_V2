@@ -19,14 +19,14 @@ public class Gachamiguero {
 
         while (numero < CANTIDAD_NUMEROS) {
             ++numero;
-            System.out.println(catar(numero));
+            System.out.println(cocinar(numero));
             Thread.sleep(25);
         }
         System.out.println("--------------------");
     }
 
-    public static String catar(int numero) {
-        return (numero % 3 == 0) ? ((numero % 5 == 0) ? "GachaMiga" : "Gacha")
-                : ((numero % 5 == 0) ? "Miga" : String.valueOf(numero));
+    public static String cocinar(int ingrediente) {
+        return (ingrediente % 3 == 0) ? ((ingrediente % 5 == 0) ? "GachaMiga" : "Gacha")
+                : ((ingrediente % 5 == 0) ? "Miga" : String.valueOf(ingrediente));
     }
 }
