@@ -1,4 +1,4 @@
-public class Main {
+public class Gachamiguero {
     private static final int CANTIDAD_NUMEROS = 100;
     private static int numero = 0;
     public static void main(String[] args) throws InterruptedException {
@@ -19,13 +19,14 @@ public class Main {
 
         while (numero < CANTIDAD_NUMEROS) {
             ++numero;
-            System.out.println(termomixLidl(numero));
+            System.out.println(cocinar(numero));
             Thread.sleep(25);
         }
         System.out.println("--------------------");
     }
-    public static String termomixLidl(int numero) {
-        return (numero % 3 == 0) ? ((numero % 5 == 0) ? "GachaMiga" : "Gacha")
-                : ((numero % 5 == 0) ? "Miga" : String.valueOf(numero));
+
+    public static String cocinar(int ingrediente) {
+        return (ingrediente % 3 == 0) ? ((ingrediente % 5 == 0) ? "GachaMiga" : "Gacha")
+                : ((ingrediente % 5 == 0) ? "Miga" : String.valueOf(ingrediente));
     }
 }
